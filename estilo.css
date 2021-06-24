@@ -31,11 +31,12 @@ a{
 a:hover{
 
     font-size: 20px ;
+    color: #D4945B;
 }
 
 a:active{
 
-    color: #D4945B;
+    color: black;
 }
 
 #capa{
@@ -66,8 +67,20 @@ a:active{
     margin-top: 50px;
 }
 
+.terciaria{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
 .lista{
     width: 50%;
+}
+
+.valores{
+    margin-left: 70px;
+
 }
 
 .rodape{
@@ -84,21 +97,36 @@ a:active{
 
 /*Página secundária*/
 
+.produtos{
+    font-family: 'Viaoda Libre', cursive;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.titulo-produto{
+    text-align: center;
+}
+
 .grid{
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
 .item{
-    border-style: groove;
-    border-radius: 8px;
+    border: 4px groove #ECE4DD ;
+    border-radius: 10px;
     margin: 15px;
     padding: 5px;
-    box-shadow: 0.7px 0.7px 0.7px black;
+    box-shadow: 1.0px 1.0px 1.0px black;
 }
 
 .item img{
     height: 200px;
+}
+
+.item:hover{
+    border-color: #D4945B;
+    box-shadow: 1.2px 1.2px 1.2px #D4945B;
 }
 
 .imagens{
@@ -106,15 +134,14 @@ a:active{
     width: 100%;
     justify-content: center;
     align-items: center;
-
 }
 
 .preco{
     font-weight: bold;
 }
 
-.produtos{
-    font-family: 'Viaoda Libre', cursive;
-    margin-top: 15px;
-    margin-left: 15px;
-}
+
+
+
+
+
